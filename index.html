@@ -32,7 +32,7 @@
 <h3>
 <a id="eyeswitch-pro" class="anchor" href="#eyeswitch-pro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EyeSwitch Pro</h3>
 
-<p>EyeSwitch Pro takes advantage of an enhanced feature set and depth sensing to increase the accuracy over the base EyeSwitch system backend.  </p>
+<p>EyeSwitch Pro takes advantage of an enhanced feature set and improed object matching to increase the accuracy over the base EyeSwitch system backend.  </p>
 
 <h3>
 <a id="timeline" class="anchor" href="#timeline" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Timeline</h3>
@@ -47,12 +47,17 @@
 <p>Midterm Review: Working demo of a beta version EyeSwitch Pro</p>
 
 <ol>
-<li>Research how to take advantage of the new depth data</li>
-<li>Refine the image subspace reduction to increase accuracy</li>
-<li>Integrate new depth sensing into final product.</li>
+<li>Research different potential object matching techniques.</li>
+<li>Implement creating stereo depth maps from the video frames. </li>
+<li>Evaluate the performance of all the different object matching techniques.<br>
+</li>
+<li>Combine RANSAC and NN to merge the accuracy results.</li>
+<li>Reduce network to provide a better overall latency.</li>
+<li>Tune all of the parameters to provide the best tradeoff of runtime and accuracy. </li>
 </ol>
 
-<p>Final Demo: Demo of the final product, Tables of the accuracy of EyeSwitch vs EyeSwitch Pro</p>
+<p>Final Paper:
+<a href="https://homes.cs.washington.edu/%7Emjj47/EyeSwitch_Pro.pdf">https://homes.cs.washington.edu/~mjj47/EyeSwitch_Pro.pdf</a></p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/ryanm35/EyeSwitch-Pro">Eyeswitch-pro</a> is maintained by <a href="https://github.com/ryanm35">ryanm35</a>.</span>
